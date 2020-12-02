@@ -18,26 +18,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZw-YZ-k0f">
-                                <rect key="frame" x="20" y="460" width="374" height="402"/>
+                                <rect key="frame" x="20" y="472" width="374" height="390"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kSL-hB-JcN">
-                                <rect key="frame" x="20" y="50" width="374" height="402"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yax-1l-WqX">
+                                <rect key="frame" x="20" y="74" width="374" height="390"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LZw-YZ-k0f" secondAttribute="bottom" id="1GK-2m-XjJ"/>
-                            <constraint firstItem="kSL-hB-JcN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="34Q-N4-PFp"/>
-                            <constraint firstItem="kSL-hB-JcN" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.448661" id="4SQ-HB-0S2"/>
-                            <constraint firstItem="kSL-hB-JcN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="6" id="Jta-HA-KQR"/>
-                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Rpd-ge-egS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kSL-hB-JcN" secondAttribute="trailing" constant="20" id="SiZ-yM-naH"/>
-                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="top" secondItem="kSL-hB-JcN" secondAttribute="bottom" constant="8" symbolic="YES" id="aAu-VE-fg5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LZw-YZ-k0f" secondAttribute="trailing" constant="20" id="gy1-1A-tCb"/>
-                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.448661" priority="750" id="sVZ-ge-jcb"/>
+                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HGO-hg-X7G"/>
+                            <constraint firstItem="Yax-1l-WqX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Wns-ce-JEi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LZw-YZ-k0f" secondAttribute="bottom" id="agc-Iw-YhO"/>
+                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.448661" constant="-12" id="b2w-GT-1FZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yax-1l-WqX" secondAttribute="trailing" constant="20" id="foW-ym-eFo"/>
+                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="top" secondItem="Yax-1l-WqX" secondAttribute="bottom" constant="8" id="gaU-G5-xWn"/>
+                            <constraint firstItem="Yax-1l-WqX" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.448661" constant="-12" id="kOL-8q-fii"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LZw-YZ-k0f" secondAttribute="trailing" constant="20" id="oud-mg-UVq"/>
                         </constraints>
                     </view>
                 </viewController>
