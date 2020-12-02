@@ -17,26 +17,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZw-YZ-k0f">
-                                <rect key="frame" x="20" y="472" width="374" height="390"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yax-1l-WqX">
-                                <rect key="frame" x="20" y="74" width="374" height="390"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
-                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vzd-tV-Z3c">
+                                <rect key="frame" x="20" y="74" width="374" height="788"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yax-1l-WqX">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="390"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZw-YZ-k0f">
+                                        <rect key="frame" x="0.0" y="398" width="374" height="390"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Yax-1l-WqX" firstAttribute="height" secondItem="LZw-YZ-k0f" secondAttribute="height" id="Hup-U5-xBc"/>
+                                    <constraint firstItem="Yax-1l-WqX" firstAttribute="width" secondItem="LZw-YZ-k0f" secondAttribute="width" id="mdS-am-ydY"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HGO-hg-X7G"/>
-                            <constraint firstItem="Yax-1l-WqX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Wns-ce-JEi"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LZw-YZ-k0f" secondAttribute="bottom" id="agc-Iw-YhO"/>
-                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.448661" constant="-12" id="b2w-GT-1FZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yax-1l-WqX" secondAttribute="trailing" constant="20" id="foW-ym-eFo"/>
-                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="top" secondItem="Yax-1l-WqX" secondAttribute="bottom" constant="8" id="gaU-G5-xWn"/>
-                            <constraint firstItem="Yax-1l-WqX" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.448661" constant="-12" id="kOL-8q-fii"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LZw-YZ-k0f" secondAttribute="trailing" constant="20" id="oud-mg-UVq"/>
+                            <constraint firstItem="Vzd-tV-Z3c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GQ8-Rh-XuW"/>
+                            <constraint firstItem="Vzd-tV-Z3c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="MUE-yf-pmK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vzd-tV-Z3c" secondAttribute="trailing" constant="20" id="mfW-6y-1Gu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vzd-tV-Z3c" secondAttribute="bottom" id="pct-h1-Gny"/>
                         </constraints>
                     </view>
                 </viewController>
