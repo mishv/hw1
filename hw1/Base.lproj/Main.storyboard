@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vzd-tV-Z3c">
-                                <rect key="frame" x="20" y="74" width="374" height="788"/>
+                                <rect key="frame" x="20" y="74" width="374" height="768"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yax-1l-WqX">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="390"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="380"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZw-YZ-k0f">
-                                        <rect key="frame" x="0.0" y="398" width="374" height="390"/>
+                                        <rect key="frame" x="0.0" y="388" width="374" height="380"/>
                                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                     </view>
                                 </subviews>
@@ -41,7 +41,7 @@
                             <constraint firstItem="Vzd-tV-Z3c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GQ8-Rh-XuW"/>
                             <constraint firstItem="Vzd-tV-Z3c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="MUE-yf-pmK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vzd-tV-Z3c" secondAttribute="trailing" constant="20" id="mfW-6y-1Gu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vzd-tV-Z3c" secondAttribute="bottom" id="pct-h1-Gny"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vzd-tV-Z3c" secondAttribute="bottom" constant="20" id="pct-h1-Gny"/>
                         </constraints>
                     </view>
                 </viewController>
