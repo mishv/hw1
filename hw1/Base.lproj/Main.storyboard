@@ -17,37 +17,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vzd-tV-Z3c">
-                                <rect key="frame" x="20" y="74" width="374" height="768"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yax-1l-WqX">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="380"/>
-                                        <color key="backgroundColor" systemColor="systemTealColor"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZw-YZ-k0f">
-                                        <rect key="frame" x="0.0" y="388" width="374" height="380"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="Yax-1l-WqX" firstAttribute="height" secondItem="LZw-YZ-k0f" secondAttribute="height" id="Hup-U5-xBc"/>
-                                    <constraint firstItem="Yax-1l-WqX" firstAttribute="width" secondItem="LZw-YZ-k0f" secondAttribute="width" id="mdS-am-ydY"/>
-                                </constraints>
-                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yax-1l-WqX">
+                                <rect key="frame" x="16" y="64" width="382" height="377"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZw-YZ-k0f">
+                                <rect key="frame" x="16" y="461" width="382" height="381"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Vzd-tV-Z3c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GQ8-Rh-XuW"/>
-                            <constraint firstItem="Vzd-tV-Z3c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="MUE-yf-pmK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vzd-tV-Z3c" secondAttribute="trailing" constant="20" id="mfW-6y-1Gu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vzd-tV-Z3c" secondAttribute="bottom" constant="20" id="pct-h1-Gny"/>
+                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="top" secondItem="Yax-1l-WqX" secondAttribute="bottom" constant="20" id="7dP-ih-4ne"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yax-1l-WqX" secondAttribute="trailing" constant="16" id="dKQ-8P-zdP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LZw-YZ-k0f" secondAttribute="trailing" constant="16" id="dlt-MW-K1p"/>
+                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="flU-s3-jgI"/>
+                            <constraint firstItem="Yax-1l-WqX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hA4-5b-R4L"/>
+                            <constraint firstItem="Yax-1l-WqX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="jCs-lL-oEn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LZw-YZ-k0f" secondAttribute="bottom" constant="20" id="p0M-uc-8pg"/>
+                            <constraint firstItem="LZw-YZ-k0f" firstAttribute="height" secondItem="Yax-1l-WqX" secondAttribute="height" multiplier="1.00993" id="x77-fk-CUC"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-214.49275362318843" y="88.392857142857139"/>
+            <point key="canvasLocation" x="-215.19999999999999" y="87.706146926536732"/>
         </scene>
     </scenes>
     <resources>
